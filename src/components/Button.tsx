@@ -8,7 +8,7 @@ interface Props {
 
 const Button = ({ disabled, handleChangeClick }: Props) => {
   return (
-    <button onClick={handleChangeClick} disabled={disabled} className="bg-[#ffffff54] text-white p-4">SHORTEN</button>
+    <button onClick={handleChangeClick} disabled={disabled} className="bg-[#ffffff54] text-white p-4 drop-shadow-md rounded-sm">SHORTEN</button>
   )
 }
 
